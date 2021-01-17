@@ -1,0 +1,10 @@
+.button {
+  border: 1px solid;
+  color: $white;
+  background-color: $ball-blue;
+  padding: 4px;
+  &:hover {
+    background-color: $blue-lagon;
+    border-color: $blue-lagon;
+  }
+}

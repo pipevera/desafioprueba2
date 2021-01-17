@@ -1,0 +1,13 @@
+@import 'footer';
+@import 'forms';
+@import 'header';
+@import 'main';
+@import 'navbar';
+@import 'section';
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+}
+

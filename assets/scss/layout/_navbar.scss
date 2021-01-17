@@ -1,0 +1,42 @@
+
+.navbar__contenedor {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 200px;
+  &__links {
+    display: flex;
+    align-items: center;
+    ul {
+      list-style: none;
+      display: flex;
+      margin: 20px;
+    }
+    li {
+      margin: 20px;
+    }
+  }
+  &__boton {
+    display: flex;
+    align-items: center;
+    ul {
+      list-style: none;
+      display: flex;
+      margin: 20px;
+    }
+    li {
+      margin: 20px;
+    }
+  }
+}
+
+.button1 {
+  border: 1px solid;
+  color: $white;
+  background-color: $ball-blue;
+  padding: 5px 15px;
+  &:hover {
+    background-color: $blue-lagon;
+    border-color: $blue-lagon;
+  }
+}

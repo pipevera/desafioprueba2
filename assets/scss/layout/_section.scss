@@ -1,0 +1,67 @@
+@media (max-width: 425px) {
+  .precios__contenedor {
+    flex-direction: column;
+    align-items: center;
+    &__cards {
+      display: flex;
+      align-items: stretch;
+      margin: 5% 0;
+    }
+  }
+}
+
+@media (min-width: 426px) {
+  .precios__contenedor__cards {
+    margin: 0 2%;
+  }
+}
+
+.precios {
+  background-image: url('../img/bg-price.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-top: 250px;
+  padding-bottom: 100px;
+  .precios__contenedor {
+    display: flex;
+    justify-content: center;
+    &__cards { 
+      .card { 
+        height: 400px;
+        padding: 10px;
+        .card-body {
+          display: flex;
+          flex-direction: column;
+          h2 {
+            font-weight: $bold;
+          }
+          ul  {
+            font-size: $small;
+            padding: 0 20px;
+          }
+          a {
+            text-align: center;
+          }
+          hr {
+            border: 1px solid $nickel;
+            width: 100%;
+          }
+          .card-content {
+            flex-grow: 4;
+          }
+        }
+      }
+    }
+
+  } 
+  
+  h3 {
+    text-align: center;
+    margin: 30px;
+    color: $white;
+  }
+}
+
+
+
